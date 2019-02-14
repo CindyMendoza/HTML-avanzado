@@ -1,0 +1,7 @@
+/*svg*/
+.blanco{
+    fill: #ffffff;
+}
+.blanco:hover{
+    fill: red;
+}
