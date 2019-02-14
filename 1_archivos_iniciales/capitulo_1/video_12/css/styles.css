@@ -34,13 +34,21 @@ li{
     margin-top: 10px;
     background-color: #c4e4ff;
     border-radius: 4px;
-
+    position: relative;
+    height: 65px;
 }
-
+li:nth-child(even){
+ left: 300px;
+}
 li a{
     text-decoration: none;
     color: #405274;
-
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px;
 }
 li img{
     width: 55px;

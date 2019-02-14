@@ -1,7 +1,8 @@
 html, body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif,verdana;
+    font-size: 0.92em;
 }
 
 header{
@@ -36,14 +37,20 @@ header li{
 }
 header li a{
     position: unset;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: block;
+    margin-top: -1.2rem;
 }
 
-
+header li a:before{
+    content: "-";
+}
 ul{
     margin: 0;
     margin-left: 20px;
     padding: 0;
-    width: 300px;
+    width: 50%;
 }
 li{
     display: block;
@@ -56,7 +63,7 @@ li{
     height: 65px;
 }
 li:nth-child(even){
-    left: 300px;
+    left: 50%;
 }
 li a{
     text-decoration: none;
