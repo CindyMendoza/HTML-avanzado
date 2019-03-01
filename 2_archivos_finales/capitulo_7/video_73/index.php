@@ -20,7 +20,7 @@
 <main>
     <article>
         <?php
-            echo "<h1>Hola Mundo</h1>";
+            echo "<h1><u>Hola Mundo</u></h1>";
         ?>
     </article>
     <article></article>

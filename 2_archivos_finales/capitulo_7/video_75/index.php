@@ -1,6 +1,6 @@
 <?php
-    $usuario = "jorge";
-    $password = "jorge";
+    $usuario = "admin";
+    $password = "admin";
     $servidor = "localhost";
     $bbdd = "curso";
 
