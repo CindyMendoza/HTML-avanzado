@@ -40,6 +40,7 @@
         <u>
             <?php
                 while($columna = mysqli_fetch_array($resultado)){
+            
                     echo "<li>";
                     echo $columna["nombre"]." - ".$columna["edad"];
                     echo "</li>";
